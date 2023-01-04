@@ -6,6 +6,7 @@
     - [Hooks](#hooks)
     - [Queries](#queries)
     - [API](#api)
+    - [Env Examlpe](#env-examlpe)
 - [🚗 run](#-run)
 - [📚 Library](#-library)
 - [🎋 Structure](#-structure)
@@ -30,6 +31,14 @@
     * login
     * register
 
+### Env Examlpe
+```
+.env.development
+REACT_APP_BASE_URL=http://localhost:3000 or your api server 
+
+.env.production
+REACT_APP_BASE_URL=your api server 
+```
 # 🚗 run
 ```
 yarn start

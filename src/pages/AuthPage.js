@@ -1,10 +1,10 @@
-import { Button, PageTemplate} from 'components/@common';
+import { PageTemplate } from 'components/common';
+import Auth from 'components/auth/Auth';
 
 function AuthPage() {
   return (
     <PageTemplate>
-      <h1>Hello World!</h1>
-      <Button>test</Button>
+      <Auth />
     </PageTemplate>
   );
 }

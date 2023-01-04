@@ -5,6 +5,9 @@ const VALIDATIONS = {
   password(value) {
     return value.length >= 8;
   },
+  name(value) {
+    return value.length >= 2;
+  },
 };
 
 export default VALIDATIONS;

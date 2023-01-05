@@ -1,5 +1,9 @@
 # ✨ My React Boilerplate
 
+<div align='center'>
+  <img src='./page.png' style='width: 350px; height: 500px'>
+</div>
+
 - [✨ My React Boilerplate](#-my-react-boilerplate)
 - [🍏 Intro](#-intro)
     - [Page](#page)

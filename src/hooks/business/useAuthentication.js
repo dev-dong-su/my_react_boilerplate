@@ -11,7 +11,7 @@ export const useRegisterAuth = () => {
     name: useInput({
       initialValue: '',
       type: 'name',
-      errorMessage: MESSAGE.USERNAME_ERROR,
+      errorMessage: MESSAGE.USER_NAME_ERROR,
       required: true,
     }),
     email: useInput({

@@ -5,7 +5,7 @@ import tw from 'tailwind-styled-components';
 import Login from './Login';
 import Register from './Register';
 
-const Container = tw.div`flex flex-col shadow-md items-center w-full h-5/6 mx-auto rounded-xl gap-2 bg-slate-600 my-auto`;
+const Container = tw.div`flex flex-col shadow-md items-center w-11/12 h-5/6 mx-auto rounded-xl gap-2 bg-slate-600 my-auto`;
 const Header = tw.div`flex flex-col items-center gap-5 w-full shadow-md p-4 rounded-xl`;
 const Title = tw.h2`my-10 text-7xl text-orange-400`;
 const OptionContaine = tw.div`flex flex-row w-full justify-evenly mt-10 font-semibold`;

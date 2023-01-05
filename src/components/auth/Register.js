@@ -8,7 +8,7 @@ const Register = () => {
   const { state, handleOnSubmit } = useRegisterAuth();
   return (
     <Container onSubmit={handleOnSubmit}>
-      <Input type="text" label="Name" autoComplete="name" {...state.name} />
+      <Input type="name" label="Name" autoComplete="name" {...state.name} />
       <Input type="email" label="Email" autoComplete="username" {...state.email} />
       <Input type="password" label="Password" {...state.password} />
       <Input type="password" label="Password Check" {...state.passwordCheck} pattern={state.password.value} />
